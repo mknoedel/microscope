@@ -117,6 +117,8 @@
         <item url="file://$USER_HOME$/.meteor/packages/ddp-common/1.2.9/web.browser/heartbeat.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.1.2/web.browser/codegen.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.1.2/web.browser/optimizer.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/js/bootstrap.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/css/bootstrap.css" />
         <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/scanner.js" />
         <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/templatetag.js" />
         <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/tokenize.js" />
@@ -265,6 +267,8 @@
       <root url="file://$USER_HOME$/.meteor/packages/ddp-common/1.2.9/web.browser/heartbeat.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.1.2/web.browser/codegen.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.1.2/web.browser/optimizer.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/js/bootstrap.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/css/bootstrap.css" />
       <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/scanner.js" />
       <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/templatetag.js" />
       <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/tokenize.js" />
