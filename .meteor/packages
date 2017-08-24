@@ -20,6 +20,8 @@ shell-server@0.2.4              # Server-side component of the `meteor shell` co
 insecure@1.0.7                  # Allow all DB writes from clients (for prototyping)
 twbs:bootstrap                  # Frontend framework for rapid prototyping (theming)
 session                         # Tracks session variables
-coffeescript
-iron:router
-sacha:spin
+coffeescript                    # The language CoffeeScript
+iron:router                     # Meteor's router
+sacha:spin                      # Spin Gif screen used to give the user something to look at while loading
+ian:accounts-ui-bootstrap-3     # Meteor's automatic UI for creating users.
+accounts-password               # Password support for Meteor user UI
