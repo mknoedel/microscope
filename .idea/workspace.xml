@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fed8b21-b964-475c-8a43-511dfaa31e5c" name="Default" comment="&quot;This is another test of the commit process&quot;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/posts/post_item.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/posts/post_item.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/posts/posts_list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/posts/posts_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/microscope.iml" afterPath="$PROJECT_DIR$/.idea/microscope.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/collections/posts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.html" afterPath="$PROJECT_DIR$/client/main.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,18 +40,28 @@
       <file leaf-file-name="posts_list.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/posts/posts_list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_item.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post_item.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/posts/post_item.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/collections/posts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -98,6 +101,7 @@
         <option value="$PROJECT_DIR$/client/templates/posts/posts_list.js" />
         <option value="$PROJECT_DIR$/client/templates/post_item.js" />
         <option value="$PROJECT_DIR$/client/templates/posts/post_item.js" />
+        <option value="$PROJECT_DIR$/lib/collections/posts.js" />
       </list>
     </option>
   </component>
@@ -145,20 +149,7 @@
             <path>
               <item name="microscope" type="b2602c69:ProjectViewProjectNode" />
               <item name="microscope" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microscope" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microscope" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microscope" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microscope" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,7 +218,7 @@
       <workItem from="1503439551254" duration="1768000" />
       <workItem from="1503497534849" duration="649000" />
       <workItem from="1503498818764" duration="2201000" />
-      <workItem from="1503582252671" duration="1786000" />
+      <workItem from="1503582252671" duration="4553000" />
     </task>
     <task id="LOCAL-00001" summary="This is a test commit to make sure that everything is working properly in WebStorm's commit process.">
       <created>1503500426590</created>
@@ -240,7 +231,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7601000" />
+    <option name="totallyTimeSpent" value="10368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="0" width="1922" height="1053" extended-state="6" />
@@ -498,8 +489,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/posts/posts_list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -507,7 +498,15 @@
     <entry file="file://$PROJECT_DIR$/client/templates/posts/post_item.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
           <folding />
         </state>
       </provider>
