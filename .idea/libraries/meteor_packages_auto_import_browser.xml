@@ -22,8 +22,10 @@
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/events.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/lookup.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/builtins.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/sacha_spin/2.3.1/web.browser/packages/sacha_spin.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/preamble.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/domrange.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/sacha_spin/2.3.1/web.browser/packages/sacha_spin/lib/spinner.css" />
         <item url="file://$USER_HOME$/.meteor/packages/mongo-id/1.0.6/web.browser/id.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.10/web.browser/tokens.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.10/web.browser/tojs.js" />
@@ -206,8 +208,10 @@
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/events.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/lookup.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/builtins.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/sacha_spin/2.3.1/web.browser/packages/sacha_spin.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/preamble.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/domrange.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/sacha_spin/2.3.1/web.browser/packages/sacha_spin/lib/spinner.css" />
       <root url="file://$USER_HOME$/.meteor/packages/mongo-id/1.0.6/web.browser/id.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.10/web.browser/tokens.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.10/web.browser/tojs.js" />
