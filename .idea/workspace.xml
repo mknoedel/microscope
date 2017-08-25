@@ -4,13 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/lib/router.js" line="40" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fed8b21-b964-475c-8a43-511dfaa31e5c" name="Default" comment="Added formatting and changed before commit default settings">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/posts/post_edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/posts/post_edit.js" />
+    <list default="true" id="6fed8b21-b964-475c-8a43-511dfaa31e5c" name="Default" comment="Added edit posts form">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/permissions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/posts/post_item.html" afterPath="$PROJECT_DIR$/client/templates/posts/post_item.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/posts/post_item.js" afterPath="$PROJECT_DIR$/client/templates/posts/post_item.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/router.js" afterPath="$PROJECT_DIR$/lib/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/posts.js" afterPath="$PROJECT_DIR$/lib/collections/posts.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,11 +31,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="posts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collections/posts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
+            <state relative-caret-position="457">
               <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="permissions.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/permissions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -64,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_item.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post_item.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/posts/post_item.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -139,13 +156,14 @@
         <option value="$PROJECT_DIR$/client/templates/application/header.html" />
         <option value="$PROJECT_DIR$/.meteor/packages" />
         <option value="$PROJECT_DIR$/client/templates/posts/posts_list.js" />
-        <option value="$PROJECT_DIR$/lib/collections/posts.js" />
         <option value="$PROJECT_DIR$/client/templates/posts/post_submit.js" />
         <option value="$PROJECT_DIR$/lib/router.js" />
         <option value="$PROJECT_DIR$/client/templates/posts/post_edit.html" />
         <option value="$PROJECT_DIR$/client/templates/posts/post_edit.js" />
         <option value="$PROJECT_DIR$/client/templates/posts/post_item.html" />
         <option value="$PROJECT_DIR$/client/templates/posts/post_item.js" />
+        <option value="$PROJECT_DIR$/lib/collections/posts.js" />
+        <option value="$PROJECT_DIR$/lib/permissions.js" />
       </list>
     </option>
   </component>
@@ -206,24 +224,6 @@
             <path>
               <item name="microscope" type="b2602c69:ProjectViewProjectNode" />
               <item name="microscope" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microscope" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microscope" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microscope" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microscope" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microscope" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microscope" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microscope" type="b2602c69:ProjectViewProjectNode" />
@@ -337,7 +337,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34116000" />
+    <option name="totallyTimeSpent" value="34519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="0" width="1922" height="1053" extended-state="6" />
@@ -413,7 +413,8 @@
     <MESSAGE value="Reverting to have Server and Client new post calls be the same." />
     <MESSAGE value="Added comments to routes, guards and hooks" />
     <MESSAGE value="Added formatting and changed before commit default settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added formatting and changed before commit default settings" />
+    <MESSAGE value="Added edit posts form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added edit posts form" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -421,14 +422,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/templates/posts/posts_list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/collections/posts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -693,26 +686,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1503674379879" expanded="true" signature="44120:44162" ph="..." />
-            <marker date="1503674379879" expanded="true" signature="44120:44180" ph="..." />
-            <marker date="1503674379879" expanded="true" signature="44120:44193" ph="..." />
-            <marker date="1503674379879" expanded="true" signature="44120:44208" ph="..." />
-            <marker date="1503674379879" expanded="true" signature="44243:44598" ph="..." />
-            <marker date="1503674379879" expanded="true" signature="44256:44583" ph="..." />
-            <marker date="1503674379879" expanded="true" signature="44304:44569" ph="..." />
-            <marker date="1503674379879" expanded="true" signature="44323:44554" ph="..." />
-            <marker date="1503674379879" expanded="true" signature="44356:44534" ph="..." />
-            <marker date="1503674379879" expanded="true" signature="44396:44500" ph="..." />
-            <marker date="1503674379879" expanded="true" signature="44417:44478" ph="..." />
+            <marker date="1503674817815" expanded="true" signature="43747:43789" ph="..." />
+            <marker date="1503674817815" expanded="true" signature="43747:43807" ph="..." />
+            <marker date="1503674817815" expanded="true" signature="43747:43820" ph="..." />
+            <marker date="1503674817815" expanded="true" signature="43747:43835" ph="..." />
+            <marker date="1503674817815" expanded="true" signature="43870:44225" ph="..." />
+            <marker date="1503674817815" expanded="true" signature="43883:44210" ph="..." />
+            <marker date="1503674817815" expanded="true" signature="43931:44196" ph="..." />
+            <marker date="1503674817815" expanded="true" signature="43950:44181" ph="..." />
+            <marker date="1503674817815" expanded="true" signature="43983:44161" ph="..." />
+            <marker date="1503674817815" expanded="true" signature="44023:44127" ph="..." />
+            <marker date="1503674817815" expanded="true" signature="44044:44105" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collections/posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -728,14 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -768,6 +745,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/permissions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding />
         </state>
       </provider>
