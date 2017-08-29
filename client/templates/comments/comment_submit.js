@@ -14,6 +14,7 @@ Template.commentSubmit.helpers({
 Template.commentSubmit.events({
     'submit form': function (e, template) {
         e.preventDefault();
+        console.log('made it!');
         
         let $body = $(e.target).find('[name=body]');
         let comment = {
