@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/lib/router.js" line="71" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/lib/router.js" line="72" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fed8b21-b964-475c-8a43-511dfaa31e5c" name="Default" comment="Added edit posts form">
@@ -51,21 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="289">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts_list.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="posts_list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/templates/posts/posts_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+            <state relative-caret-position="238">
+              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -309,7 +309,7 @@
       <workItem from="1503953206134" duration="1202000" />
       <workItem from="1503956593208" duration="1010000" />
       <workItem from="1504014660086" duration="12485000" />
-      <workItem from="1504031676620" duration="10921000" />
+      <workItem from="1504031676620" duration="11399000" />
     </task>
     <task id="LOCAL-00001" summary="This is a test commit to make sure that everything is working properly in WebStorm's commit process.">
       <created>1503500426590</created>
@@ -343,7 +343,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63003000" />
+    <option name="totallyTimeSpent" value="63481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1695" y="299" width="1922" height="1055" extended-state="6" />
@@ -748,18 +748,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/posts/posts_list.html">
+    <entry file="file://$PROJECT_DIR$/lib/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        <state relative-caret-position="289">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/router.js">
+    <entry file="file://$PROJECT_DIR$/client/templates/posts/posts_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        <state relative-caret-position="238">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding />
         </state>
       </provider>
