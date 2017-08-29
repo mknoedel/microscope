@@ -3,19 +3,19 @@ if (Posts.find().count() === 0) {
     let now = new Date().getTime();
 
     // create two users
-    let timID = Meteor.users.insert({
+    let tomId = Meteor.users.insert({
         profile: { name: 'Tom Coleman' }
     });
     let tom = Meteor.users.findOne(tomId);
-    let sachaID = Meteor.users.insert({
+    let sachaId = Meteor.users.insert({
         profile: { name: 'Sacha Greif' }
     });
-    let sacha = Meteor.users.findOne(sachaID);
+    let sacha = Meteor.users.findOne(sachaId);
 
     let telescopeId = Posts.insert({
         title: 'Introducing Telescope',
         userID: sacha._id,
-        author: sacja.profie.name,
+        author: sacha.profile.name,
         url: 'http://sachagreif.com/introducing-telescope/',
         submitted: new Date(now - 7 * 3600 * 1000)
     });
