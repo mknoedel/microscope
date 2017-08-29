@@ -1,6 +1,4 @@
 Meteor.publish('posts', function(sort, limit) {
-    console.log(sort);
-    console.log(limit);
     check(sort, Object);
     check(limit, Number);
     return Posts.find({}, {sort: sort, limit: limit});
