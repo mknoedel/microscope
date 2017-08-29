@@ -13,10 +13,10 @@ Template.postEdit.events({
         Meteor.call('postUpdate', postProperties, function(error, result) {
             //  display the error to the user and abort
             if (error)
-                return alert(error.reason);
+                return throwError(error.reason);
 
             if (result.urlExists)
-                alert('This link has already been posted');
+                throwError('This link has already been posted');
 
             else Router.go('postPage', {_id: currentPostId});
         });
