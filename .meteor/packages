@@ -27,3 +27,5 @@ accounts-password               # Password support for Meteor user UI
 check                           # Lets you chekc any JS object against a predefined pattern
 audit-argument-checks           # Helps you make sure you are using check in every single method
 rss
+http
+bitly
