@@ -26,3 +26,4 @@ ian:accounts-ui-bootstrap-3     # Meteor's automatic UI for creating users.
 accounts-password               # Password support for Meteor user UI
 check                           # Lets you chekc any JS object against a predefined pattern
 audit-argument-checks           # Helps you make sure you are using check in every single method
+rss
