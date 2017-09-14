@@ -4,6 +4,7 @@ Package.describe({
     version: '1.0.0'
 });
 Package.onUse(function (api) {
-    api.versionsFrom('0.9.4');
-    api.addFiles('intercom_loader.js', 'client')
+    api.addFiles('intercom_loader.js', 'client');
+    api.addFiles('intercom_server.js', 'server');
+    api.export('IntercomHash', 'server');
 });
